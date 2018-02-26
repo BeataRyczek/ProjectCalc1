@@ -37,7 +37,11 @@ public class ProjCalc {
                 switch (menuCalc) {
 
                     case 1:
-
+                        System.out.println("Dodawanie");
+                        System.out.println("Podaj liczby");
+                        ProjCalc intsum = new ProjCalc();
+                        int sum = intsum.min();
+                        System.out.println(sum);
                         break;
 
                     case 2:
